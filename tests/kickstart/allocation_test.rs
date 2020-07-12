@@ -1,5 +1,5 @@
 #[cfg(test)]
-use crate::kickstart::allocation::allocation;
+use wiyata::kickstart::allocation::allocation;
 
 #[test]
 fn it_returns_max_houses_to_buy() {
