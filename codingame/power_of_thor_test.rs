@@ -1,5 +1,5 @@
 #[cfg(test)]
-use wiyata::codingame::power_of_thor::power_of_thor;
+use crate::codingame::power_of_thor::power_of_thor;
 
 #[test]
 fn it_returns_direction_and_new_coordinates() {

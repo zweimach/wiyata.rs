@@ -1,5 +1,5 @@
 #[cfg(test)]
-use wiyata::codingame::onboarding::onboarding;
+use crate::codingame::onboarding::onboarding;
 
 #[test]
 fn it_returns_min_value() {

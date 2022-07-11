@@ -1,5 +1,5 @@
 #[cfg(test)]
-use wiyata::codingame::the_descent::the_descent;
+use crate::codingame::the_descent::the_descent;
 
 #[test]
 fn it_returns_max_value_index() {
