@@ -19,5 +19,5 @@ pub fn is_valid(xs: String) -> bool {
                 stack
             }
         });
-    stack.len() == 0
+    stack.is_empty()
 }

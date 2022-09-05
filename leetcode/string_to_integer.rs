@@ -14,9 +14,8 @@ pub fn my_atoi(s: String) -> i32 {
             }
             c @ '0'..='9' => {
                 let n = c.to_string().parse::<i32>().unwrap();
-                let can_overflow = i32::checked_mul(result, 10)
-                    .map(|m| m.checked_add(n))
-                    .flatten();
+                let can_overflow =
+                    i32::checked_mul(result, 10).and_then(|m| m.checked_add(n));
                 if let Some(n) = can_overflow {
                     result = n;
                 } else {
@@ -29,7 +28,7 @@ pub fn my_atoi(s: String) -> i32 {
     }
     match (neg, overflow) {
         (true, true) => i32::min_value(),
-        (true, false) => result * -1,
+        (true, false) => -result,
         (false, true) => i32::max_value(),
         (false, false) => result,
     }
