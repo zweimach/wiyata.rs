@@ -1,15 +1,25 @@
 pub mod evaluate_reverse_polish_notation;
+pub mod find_pivot_index;
+pub mod is_subsequence;
+pub mod isomorphic_strings;
 pub mod longest_substring;
 pub mod richest_customer_wealth;
 pub mod roman_to_integer;
+pub mod running_sum_of_1d_array;
 pub mod single_number;
 pub mod string_to_integer;
+pub mod utf_8_validation;
 pub mod valid_parentheses;
 
 mod evaluate_reverse_polish_notation_test;
+mod find_pivot_index_test;
+mod is_subsequence_test;
+mod isomorphic_strings_test;
 mod longest_substring_test;
 mod richest_customer_wealth_test;
 mod roman_to_integer_test;
+mod running_sum_of_1d_array_test;
 mod single_number_test;
 mod string_to_integer_test;
+mod utf_8_validation_test;
 mod valid_parentheses_test;
