@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::richest_customer_wealth::maximum_wealth;
+#![cfg(test)]
+use super::richest_customer_wealth::maximum_wealth;
 
 #[test]
 fn it_returns_max_customer_wealth() {

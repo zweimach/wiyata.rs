@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::kickstart::allocation::allocation;
+#![cfg(test)]
+use super::allocation::allocation;
 
 #[test]
 fn it_returns_max_houses_to_buy() {

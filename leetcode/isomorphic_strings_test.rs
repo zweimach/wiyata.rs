@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::isomorphic_strings::is_isomorphic;
+#![cfg(test)]
+use super::isomorphic_strings::is_isomorphic;
 
 #[test]
 fn it_checks_if_string_is_isomorphic() {

@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::running_sum_of_1d_array::running_sum;
+#![cfg(test)]
+use super::running_sum_of_1d_array::running_sum;
 
 #[test]
 fn it_returns_the_element_that_only_appears_once() {

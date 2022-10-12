@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::longest_substring::length_of_longest_substring;
+#![cfg(test)]
+use super::longest_substring::length_of_longest_substring;
 
 #[test]
 fn it_returns_the_length_of_longest_substring() {

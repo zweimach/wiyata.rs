@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::single_number::single_number;
+#![cfg(test)]
+use super::single_number::single_number;
 
 #[test]
 fn it_returns_the_element_that_only_appears_once() {

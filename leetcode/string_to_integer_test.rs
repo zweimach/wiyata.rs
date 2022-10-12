@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::string_to_integer::my_atoi;
+#![cfg(test)]
+use super::string_to_integer::my_atoi;
 
 #[test]
 fn it_returns_an_integer_from_parsed_digit_characters() {

@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::evaluate_reverse_polish_notation::eval_rpn;
+#![cfg(test)]
+use super::evaluate_reverse_polish_notation::eval_rpn;
 
 #[test]
 fn it_returns_the_result_of_evaluating_the_expression() {

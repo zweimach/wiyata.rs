@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::is_subsequence::is_subsequence;
+#![cfg(test)]
+use super::is_subsequence::is_subsequence;
 
 #[test]
 fn it_checks_if_string_is_a_subsequence() {

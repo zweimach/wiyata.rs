@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::utf_8_validation::valid_utf8;
+#![cfg(test)]
+use super::utf_8_validation::valid_utf8;
 
 #[test]
 fn it_checks_for_valid_utf_8_byte_sequence() {

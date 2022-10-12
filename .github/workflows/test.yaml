@@ -19,7 +19,8 @@ jobs:
           cargo build --verbose
           cargo test --verbose
 
-      - uses: actions/cache@v3
+      - name: Cache dependencies
+        uses: actions/cache@v3
         with:
           path: |
             ~/.cargo/bin/

@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::roman_to_integer::roman_to_int;
+#![cfg(test)]
+use super::roman_to_integer::roman_to_int;
 
 #[test]
 fn it_returns_parsed_integer() {

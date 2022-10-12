@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::codingame::onboarding::onboarding;
+#![cfg(test)]
+use super::onboarding::onboarding;
 
 #[test]
 fn it_returns_min_value() {

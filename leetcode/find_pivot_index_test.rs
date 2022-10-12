@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::find_pivot_index::pivot_index;
+#![cfg(test)]
+use super::find_pivot_index::pivot_index;
 
 #[test]
 fn it_returns_the_leftmost_pivot_index() {

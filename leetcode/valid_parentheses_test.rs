@@ -1,5 +1,5 @@
-#[cfg(test)]
-use crate::leetcode::valid_parentheses::is_valid;
+#![cfg(test)]
+use super::valid_parentheses::is_valid;
 
 #[test]
 fn it_returns_true_when_brackets_match() {
